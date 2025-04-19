@@ -142,3 +142,62 @@ footer {
   padding: 20px;
   color: #666;
 }
+
+.participants {
+  margin-top: 10px;
+}
+
+.participants p {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.participants ul {
+  list-style-type: disc;
+  margin-left: 20px;
+  color: #333;
+}
+
+.participants ul li {
+  margin-bottom: 5px;
+}
+
+.dark-mode {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+.dark-mode header {
+  background-color: #333333;
+}
+
+.dark-mode .activity-card {
+  background-color: #1e1e1e;
+  border-color: #444444;
+}
+
+.dark-mode button {
+  background-color: #444444;
+  color: #ffffff;
+}
+
+.dark-mode button:hover {
+  background-color: #555555;
+}
+
+.dark-mode-toggle {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: #1a237e;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  font-size: 14px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.dark-mode-toggle:hover {
+  background-color: #3949ab;
+}
